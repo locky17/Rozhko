@@ -1,0 +1,696 @@
+/*fonts*/
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-ExtraBold.eot');
+    src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'),
+        url('../fonts/Gilroy/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gilroy/../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+/*/fonts*/
+
+
+
+.container {
+    height: 100%;
+    width: 1110px;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #fff;
+    background-color: #fff;
+}
+
+
+
+
+button {
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+}
+
+
+
+/*nav*/
+nav {
+    position: absolute !important;
+    margin-top: 15px;
+
+}
+
+.nav-link {
+    font-family: Gilroy !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 150% !important;
+    color: #FFFFFF !important;
+    margin-right: 20px;
+}
+
+.nav-link:hover {
+    color: #fff !impotant;
+
+
+}
+
+.navbar-brand {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    width: 85px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: -10px;
+    color: #FFFFFF;
+}
+
+.form-control: {
+    background: transparent;
+    border: none;
+
+}
+
+input {
+    color: #fff;
+}
+
+.login {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.reg {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.nav_register_login {
+    margin-right: 44px;
+}
+
+input {
+    border: 0px !important;
+    background: none !important;
+    color: #fff;
+
+}
+
+input:after {
+    color: #fff !important;
+
+}
+
+/*/nav*/
+
+.back{
+    width: 100%;
+    height: 80px;
+    background-color: #E9E3E3;
+    text-align: left;
+    font-family: 'Rubik', sans-serif !important;
+    text-decoration: none;
+}
+    .back h1{
+    text-align: left;
+    font-family: 'Rubik', sans-serif !important;
+    text-decoration: none;
+    align-items: center;
+            padding-top: 20px;
+        font-size: 30px;
+}
+.back a{
+    text-decoration: none!important;
+}
+
+/*intro*/
+
+.intro {
+    background-image: url(img/introback.jpg);
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 950px;
+
+}
+
+.intro_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 170px;
+    width: 400px;
+    transform: translateY(600px) translateX(350px);
+
+}
+
+.intro_title {
+
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 35px;
+
+}
+
+.btn-intr {
+    position: absolute;
+    background: #333333;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    padding: 5px 25px;
+    top: 100px;
+    margin-right: 35px;
+
+
+}
+
+.intro_futer {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    border-top: 1px solid #fff;
+    transform: translateY(-120px);
+    justify-content: center;
+
+}
+
+.intro-futer-content {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+
+}
+
+.ft_cntn {
+    border-right: 1px solid #fff;
+    margin-left: 15px;
+}
+
+ft_cntn1 {
+    margin-left: 15px;
+}
+
+
+/*/intro*/
+
+
+
+
+/*window*/
+.window {
+    width: 100%;
+    height: 950px;
+    background-color: #fff;
+}
+
+.window_title {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    color: #333333;
+    margin-top: 100px;
+
+}
+
+.window-subtitle {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    color: #333333;
+
+}
+
+.window-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tabs {
+    position: relative;
+    /* Относительное позиционирование */
+}
+
+.tab,
+.tab-title {
+    display: inline-block;
+    /* Выстраиваем по горизонтали */
+}
+
+.tab input[type="radio"] {
+    display: none;
+}
+
+.tab-title {
+    background: transparent;
+    padding: 12px 35px;
+    border: 1px solid #D6D6D6;
+    color: #333333;
+    text-transform: uppercase;
+    margin-left: 25px;
+
+
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+
+.tab-content {
+    position: absolute;
+
+
+
+    padding: 10px;
+
+    left: 0;
+
+    width: calc(100% - 20px);
+
+    display: none;
+    width: 1200px;
+}
+
+.tab :checked + .tab-title {
+    position: relative;
+    background: #333333;
+
+    color: #fff;
+    /* Сдвигаем вниз */
+    z-index: 1;
+
+}
+
+.tab :checked ~ .tab-content {
+    display: block;
+
+}
+
+.tab_galery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery_img1 {
+    padding-top: 230px;
+    width: 350px;
+    height: 280px;
+    background-image: url(img/colja%205.jpg);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.galery_img2 {
+    padding-top: 230px;
+    width: 350px;
+    height: 280px;
+    background-image: url(img/sergi.jpg);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.galery_img3 {
+    padding-top: 230px;
+    width: 350px;
+    height: 280px;
+    background-image: url(img/podveski.jpg);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.galery_img4 {
+    padding-top: 230px;
+    width: 350px;
+    height: 280px;
+    background-image: url(img/zaponki.jpg);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.galery_img5 {
+    padding-top: 230px;
+    width: 350px;
+    height: 280px;
+    background-image: url(img/brasleti.jpg);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.galery_img6 {
+    padding-top: 230px;
+    width: 350px;
+    height: 280px;
+    background-image: url(img/chasi.jpg);
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+}
+
+.tab__text {
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+}
+
+.windwo_content {
+    margin-top: 100px;
+}
+
+
+
+/*/windo*/
+
+
+
+/*our_salon*/
+
+
+
+.our_salon {
+    background-image: url(img/ors.jpg);
+    height: 541px;
+    width: 100%;
+    text-align: center;
+}
+
+.srs_firstext {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+
+
+}
+
+.srs_secondstext {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.src_subtitel {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 642px;
+    margin-left: 479px;
+    margin-bottom: 75px;
+}
+
+.btnour {
+    padding: 10px 30px;
+    border: #fff 1px solid;
+    background-color: #fff;
+    color: #333333;
+}
+
+.src_content {
+    position: relative;
+    top: 120px;
+}
+
+
+
+/*info*/
+
+.info {
+    width: 100%;
+    height: 1750px;
+    background-color: #fff;
+}
+
+.info_stats {
+    text-align: center;
+
+}
+
+.info_content {
+    display: flex;
+}
+
+.info-text {
+    padding-top: 120px;
+}
+
+.info_titel {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+}
+
+.info_subtitle {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #333333;
+}
+
+.info_containers {
+    width: 350px;
+    height: 370px;
+    background-color: aqua;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+    background-image: url(img/info_img1.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.info_containers2 {
+    width: 350px;
+    height: 370px;
+    background-color: aqua;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+    background-image: url(img/info_img2.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.info_containers3 {
+    width: 350px;
+    height: 370px;
+    background-color: aqua;
+    margin-right: 30px;
+    margin-top: 60px;
+    margin-bottom: 110px;
+    background-image: url(img/info_img3.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.info_containers_title {
+    margin-top: 270px;
+    width: 199px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 68px;
+}
+
+.info_btn1 {
+    color: #fff;
+    padding: 15px 35px;
+    background-color: #333333;
+    margin-right: 20px;
+
+}
+
+/*up*/
+.info-sco-title1 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 140%;
+    text-align: center;
+    color: #333333;
+    margin-top: 125px;
+    margin-bottom: 15px;
+}
+
+.info-sco-subtitle1 {
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* accent */
+
+    color: #333333;
+}
+
+
+.info_soc {
+    text-align: center;
+}
+
+.info_soc_container {
+    margin-left: -5px;
+    margin-top: 60px;
+}
+
+.info_soc_up {
+    width: 1100px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+
+}
+
+.info_soc_up_right {
+    width: 50%;
+    height: 100%;
+    background-color: navy;
+}
+
+.info_soc_up_left1 {
+    width: 25%;
+    height: 100%;
+    background-image: url(img/up-img1.jpg);
+    background-position: center;
+}
+
+.info_soc_up_left2 {
+    width: 25%;
+    height: 100%;
+    background-color: navy;
+    background-image: url(img/up-img2.jpg);
+    background-position: center;
+}
+
+/*down*/
+
+.info_soc_down {
+   width: 1100px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+}
+
+.info_soc_down_right {
+    width: 50%;
+    height: 100%;
+    background-color: navy;
+}
+
+.info_soc_down_left1 {
+    width: 25%;
+    height: 100%;
+    background-color: navy;
+    background-image: url(img/down-img1.jpg);
+    background-position: center;
+}
+
+.info_soc_down_left2 {
+    width: 25%;
+    height: 100%;
+    background-color: navy;
+    background-image: url(img/down-img2.jpg);
+    background-position: center;
+}

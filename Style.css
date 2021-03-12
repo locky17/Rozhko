@@ -1,0 +1,405 @@
+body {
+    background: url('../Assets/img/Hihj.gif') #FFFFFF !important;
+    font-size: 16px !important;
+    color: #0B132A !important;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+button {
+    background: transparent;
+    font-family: 'Rubik', sans-serif;
+}
+.back{
+    width: 100%;
+    height: 80px;
+    background-color: coral;
+    text-align: left;
+    font-family: 'Rubik', sans-serif !important;
+    text-decoration: none;
+}
+    .back h1{
+    text-align: left;
+    font-family: 'Rubik', sans-serif !important;
+    text-decoration: none;
+    align-items: center;
+            padding-top: 20px;
+        font-size: 30px;
+}
+.back a{
+    text-decoration: none!important;
+}
+
+.container {
+    width: 11.4rem;
+    height: 100%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*nav*/
+
+.navbar {
+    align-items: center;
+    margin-top: 2.8rem;
+}
+
+
+
+
+.nav-link {
+    color: #4F5665;
+    margin-left: 4rem;
+}
+
+
+.btn_nav {
+    border: none;
+
+}
+
+.btn--red {
+    padding: 13px 45px;
+    border-radius: 50px;
+
+    color: #F53855;
+    border: 1px solid #F53855;
+    margin-left: 30px;
+}
+
+/*first*/
+
+.intro {
+    background-image: url(Assets/img/intro_img.jpg);
+    background-repeat: no-repeat;
+
+    background-position: right;
+
+    height: 20rem;
+    width: 100%;
+    text-align: left;
+}
+
+.intro_text h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    color: #0B132A;
+
+}
+
+.intro_text {
+    width: 555px;
+    margin-top: 120px;
+}
+
+.intro_text span {
+    font-weight: 700;
+}
+
+.intro_subtext span {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.intro_subtext {
+    width: 555px;
+}
+
+.intro_btn {
+    padding: 17.5px 77.5px;
+    background: #F53838;
+    border-radius: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border-color: transparent;
+    margin-top: 50px;
+
+}
+
+
+/*second*/
+
+
+
+.intro_soc {
+    width: 1140px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_soc_items {
+    display: flex;
+    margin-left: 343px;
+
+
+}
+
+.intro_soc_text {
+    margin-left: 36px;
+}
+
+/*thirthd*/
+
+.into_hirthd {
+    height: 415px;
+    width: 100%;
+    background-image: url(Assets/img/intro_thirtgd.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    margin-top: 120px;
+
+}
+
+.into_hirthd h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    width: 383.41px;
+}
+
+.into_hirthd h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    width: 427.88px;
+}
+
+.into_hirthd h5 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+
+
+}
+
+.into_hirthd_content {
+    position: absolute;
+    right: 240px;
+    margin-top: 100px;
+}
+
+
+
+/*chose-urplan*/
+
+
+
+.chose-urplan {
+    height: 950px;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.chose-urplan h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.chose-urplan h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chose-urplan-grand {
+    width: 330px;
+    height: 760px;
+    box-shadow: 2px 8px 7px rgb(210 206 206 / 60%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 180px;
+    transition: .2 linear;
+}
+
+.chose-urplan-grand:hover {
+
+    box-shadow: 2px 8px 7px rgb(243 180 180 / 60%);
+    transition: .2 linear;
+
+}
+
+.chese-gr-img {
+    width: 144.9px;
+    height: 165.37px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.chose-urplan-text {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+
+}
+
+.chose-urplan-grand span {
+    margin: 10px 0;
+}
+
+.chose-urplan-grand h3 {
+    margin: 130px 0 20px 0;
+}
+
+.chose-urplan_contanet {
+    display: flex;
+}
+
+
+/*vpn-map*/
+
+
+.vpn_map {
+    text-align: center;
+    height: 870px;
+    width: 100%;
+}
+
+.vpn_map h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    width: 383.41px;
+    margin-top: 151px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vpn_map h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vpn_map_img {
+    background-image: url(Assets/img/vpn_map.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vpn_map_company {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+}
+
+.vpn_map_company img {
+    margin-left: 60px;
+}
+
+.nt {
+    width: 200px;
+    height: 112.5px;
+    margin-left: 30px;
+}
+
+.rd {
+    width: 156.25px;
+    height: 50.62px;
+}
+
+.am {
+    width: 277.76px;
+    height: 208.32px;
+}
+
+.ds {
+    width: 187.02px;
+    height: 63.59px;
+}
+
+.sp {
+    width: 171.28px;
+    height: 51.34px;
+}
+
+.intro_reviews {
+    height: 590px;
+    width: 100%;
+    text-align: center;
+}
+
+.intro_reviews h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #0B132A;
+    width: 447.81px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro_reviews h5 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
